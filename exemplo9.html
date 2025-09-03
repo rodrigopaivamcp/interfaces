@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso das tags de Imagem e Imagem</title>
+</head>
+<body>
+    <h1>Exemplo 9 - Uso das tags de Imagem e Vídeo</h1>
+    <p>
+        Este exemplo mostra diferentes formas de usar as tags <code>&lt;im&gt;</code> e <code>&lt;video&gt;</code>,
+        incluindo o uso de <code>&lt;figure&gt;</code> e <code>&lt;figcaption&gt;</code> para agrupar mídias com legendas.
+    </p>
+
+    <h2>Descrição</h2>
+    <p>
+        As Tags abordadas são:
+    </p>
+    <ul>
+        <li><strong>&lt;img&gt;</strong>: Usada para inserir imagens na página.</li>
+        <li><strong>&lt;vido&gt;</strong>: Usada para inserir vídeos na página.</li>
+        <li><strong>&lt;figure&gt;</strong>: Usada para agrupar mídias (imagens, vídeos, gráficos) com uma legenda.</li>
+        <li><strong>&lt;figcaption&gt;</strong>: Usada para adicionar legendas ao conteúdo dentro de <code>&lt;figure&gt;</code></li>
+    </ul>
+    <h2>Exemplos práticos</h2>
+    <h3>Imagem usando os atributos img, figure, figcaption</h3>
+    <p>Uma imagem agrupada com legenda descritiva</p>
+    <figure>
+        <img src="c:\Users\rodri\Downloads\Quadra de basquetebol.jpg" alt="Imagem de Quadra">
+        <figcaption>Figura1: Quadra</figcaption>
+    </figure>
+    <h3>
+        video com legenda usando &lt;figure&gt; e lt&;figcaption&gt;</h3>
+        <p>Exemplo de uso da tag do vídeo com legenda agrupada</p>
+        <figure>
+        <video controls width="400">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+            Seu navegador não suporta o elemento do vídeo.
+        </video>
+        </figure>
+        <h1>Incorporação de vídeos do YouTube usando a tag &lt;iframe&gt;</h1>
+        <p>Neste exemplo iremos utilizar dois vídeos do youtube lado a lado usando a tag &lt;figure&gt;</p>
+        <div>
+            <figure>
+                <iframe width="500" height="315" src="https://www.youtube.com/embed/LcYEtuTGYk?list=RDLcYEtuTZGYk", title="Eu navegarei Cover"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+                picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>Além do Rio Azul</p>
+                <figcaption> <iframe width="853" height="480" src="https://www.youtube.com/embed/tkhiN-Hvqh4?list=RDtkhiN-Hvqh4" title="Julia Vitoria - Além do Rio Azul (Ao Vivo)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></figcaption>
+            
+            </figure>
+        </div>
+</body>
+</html>
