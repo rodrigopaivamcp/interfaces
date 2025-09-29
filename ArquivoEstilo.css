@@ -5,50 +5,50 @@
     background-color: rgb(25, 194, 25, 0.05);
     font-size: 1.2em;
     font-weight: bold;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-    width: 800px; 
-    margin: 25px auto; 
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;  
+    width: 800px;
+    margin: 25px auto;
     padding: 25px;
-    
+
 }
 .div2{
     border-radius: 10px;
-    border-left: double hsl(0, 100%, 50%) 10px;
+    border-left:double hsl(0, 100%, 50%) 10px;
     text-align: center;
     background-color: hsla(234, 69%, 50%, 0.08);
     font-size: 1.2em;
     font-weight: bold;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-    width: 800px; 
-    margin: 25px auto; 
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;  
+    width: 800px;
+    margin: 25px auto;
     padding: 25px;
-    
+
 }
 .div3{
     border-radius: 10px;
-    border-left: solid hsl(315, 78%, 50%) 10px;
+    border-left:solid hsl(315, 78%, 50%) 10px;
     text-align: center;
     background-color: hsla(234, 100%, 50%, 0.1);
     font-size: 1.2em;
     font-weight: bold;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-    width: 800px; 
-    margin: 25px auto; 
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;  
+    width: 800px;
+    margin: 25px auto;
     padding: 25px;
-    
+
 }
 .div4{
     border-radius: 10px;
-    border-left: double hsl(207, 100%, 50%) 10px;
+    border-left:double hsl(207, 100%, 50%) 10px;
     text-align: center;
     background-color: hsla(44, 100%, 50%, 0.1) 10px;
     font-size: 1.2em;
     font-weight: bold;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-    width: 800px; 
-    margin: 25px auto; 
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;  
+    width: 800px;
+    margin: 25px auto;
     padding: 25px;
-    
+
 }
 #paragrafo1{
     font-style: italic;
@@ -60,10 +60,9 @@
 #id1{
     margin: 25px auto;
     width: 800px;
-
 }
+
 #id2{
     margin: 25px auto;
     width: 800px;
-
 }
