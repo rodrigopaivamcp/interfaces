@@ -1,8 +1,8 @@
 .div1{
     border-radius: 10px;
-    border-left: solid green 10px;
+    border-left: solid rgb(166, 255, 0) 10px;
     text-align: justify;
-    background-color: rgb(36, 192, 36, 0.05);
+    background-color: rgb(25, 194, 25, 0.05);
     font-size: 1.2em;
     font-weight: bold;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
@@ -28,7 +28,7 @@
     border-radius: 10px;
     border-left: solid hsl(315, 78%, 50%) 10px;
     text-align: center;
-    background-color: hsla(234, 69%, 50%, 0.1) 10px;
+    background-color: hsla(234, 69%, 50%, 0.1);
     font-size: 1.2em;
     font-weight: bold;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
@@ -39,9 +39,9 @@
 }
 .div4{
     border-radius: 10px;
-    border-left: double rgb(248, 96, 25) 10px;
+    border-left: double hsl(207, 100%, 50%) 10px;
     text-align: center;
-    background-color: hsla(37, 100%, 40%, 0.1);
+    background-color: hsla(44, 100%, 50%, 0.1) 10px;
     font-size: 1.2em;
     font-weight: bold;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
