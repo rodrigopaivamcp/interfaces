@@ -5,9 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exemplo 25 CSS</title>
     <style>
+        div{
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+            font-size: 1em;
+            font-weight: bold;
+
+        }
         .div1{
             width: 500px;
             border-left: solid red 8px;
+            margin: auto;
+            padding: 25px;
+        }
+        .div2{
+            width: 60vw;
+            height: 80vh;
+            border-left: solid green 8px;
+            margin: auto;
+            padding: 25px;
+        }
+        .div3{
+            width: 50vw;
+            height: 300px;
+            border-left: solid blue 8px;
             margin: auto;
             padding: 25px;
         }
@@ -15,14 +35,14 @@
 </head>
 <body>
     <h1>Exemplo 25 HTML CSS - Width e Height</h1>
-    <div>
-        <p>Utilizadas para definir, respectivamente, a largura e
+    <div class="div1">
+            <p>Utilizadas para definir, respectivamente, a largura e
             a altura de um elemento;
             Podem ser definidas para o valor auto (automático,
             calculado pelo navegador), valores em pixels ( px ) e
             porcentagem.</p>
     </div>
-    <div>
+    <div class="div2">
         <h2>Exempolo de uso do width</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga error sunt maiores recusandae. Dicta iure, quasi, quam nisi, asperiores possimus aperiam rem facilis architecto sit velit expedita unde aut debitis!</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, praesentium sapiente? Similique eos molestiae, suscipit voluptates magnam atque fuga earum itaque aliquid? Non harum culpa, iusto eum quis amet voluptatibus.</p>
