@@ -9,26 +9,35 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link rel="stylesheet" href="assets/css/style.css">
 <title>EXEMPLO 44 BOOTSTRAP</title>
+<style>
+    .painel{
+            box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+            font-weight: bold;
+
+
+        }
+</style>
 </head>
 <body>
     <div class="container-sm">
         <h1>Exemplo 44 - Bootstrap - Grid</h1>
-        <div class="card">
+        <div class="card mt-4 painel">
             <div class="card-header bg-dark text-white">
                 Funcionarios
             </div>
             <div class="card-body">
                 <div class="text-end mb-3">
-                    <button type="button" class="btn btn-dark">Novo Funcionario</button>
+                    <button type="button" class="btn btn-dark " data-bs-toggle="modal" data-bs-target="#exampleModal">Novo Funcionario</button>
                 </div>
                 <div>
-                    <table class="table">
-                        <thead>
+                    <table class="table table-houver table-bordered border-dark">
+                        <thead class="table-dark">
                             <tr>
                                 <th scope="col">cpf</th>
                                 <th scope="col">Nome</th>
                                 <th scope="col">Telefone</th>
                                 <th scope="col">Email</th>
+                                <th>Ações</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -37,43 +46,74 @@
                                 <td>JOSE DAS COUVES</td>
                                 <td>61-1929192</td>
                                 <td>josedascouves@couves.com</td>
+                                <td>
+                                    <div>
+                                        <button type="button" class="btn btn-primary">Editar</button>
+                                        <button type="button" class="btn btn-danger">Excluir</button>
+                                    </div>
+                                </td>
                             </tr>
                             <tr>
                                 <td>583.532.424-69</td>
                                 <td>JOSE DAS COUVES</td>
                                 <td>61-1929192</td>
                                 <td>josedascouves@couves.com</td>
+                                <td>
+                                    <div>
+                                        <button type="button" class="btn btn-primary">Editar</button>
+                                        <button type="button" class="btn btn-danger">Excluir</button>
+                                    </div>
+                                </td>
                             </tr>
                             <tr>
                                 <td>583.532.424-69</td>
                                 <td>JOSE DAS COUVES</td>
                                 <td>61-1929192</td>
                                 <td>josedascouves@couves.com</td>
+                                <td>
+                                    <div>
+                                        <button type="button" class="btn btn-primary">Editar</button>
+                                        <button type="button" class="btn btn-danger">Excluir</button>
+                                    </div>
+                                </td>
                             </tr>
                             <tr>
                                 <td>583.532.424-69</td>
                                 <td>JOSE DAS COUVES</td>
                                 <td>61-1929192</td>
                                 <td>josedascouves@couves.com</td>
+                                <td>
+                                    <div>
+                                        <button type="button" class="btn btn-primary">Editar</button>
+                                        <button type="button" class="btn btn-danger">Excluir</button>
+                                    </div>
+                                </td>
                             </tr>
                             <tr>
                                 <td>583.532.424-69</td>
                                 <td>JOSE DAS COUVES</td>
                                 <td>61-1929192</td>
                                 <td>josedascouves@couves.com</td>
+                                <td>
+                                    <div>
+                                        <button type="button" class="btn btn-primary">Editar</button>
+                                        <button type="button" class="btn btn-danger">Excluir</button>
+                                    </div>
+                                </td>
                             </tr>
                             <tr>
                                 <td>583.532.424-69</td>
                                 <td>JOSE DAS COUVES</td>
                                 <td>61-1929192</td>
                                 <td>josedascouves@couves.com</td>
+                                <td>
+                                    <div>
+                                        <button type="button" class="btn btn-primary">Editar</button>
+                                        <button type="button" class="btn btn-danger">Excluir</button>
+                                    </div>
+                                </td>
                             </tr>
-                            <tr>
-                                <th scope="row"></th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
+
                         </tbody>
                     </table>
                 </div>
@@ -86,6 +126,56 @@
 
     </div>
 
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg painel  ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Cadastro de Funcionario</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <label for="">Nome</label>
+                        <input type="text" name="" id="" class="form-control">
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <label for="">CPF</label>
+                            <input type="text" name="" id="" class="form-control">
+                        </div>
+                        <div class="col-6">
+                            <label for="">E-mail</label>
+                            <input type="text" name="" id="" class="form-control">
+                        </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <label for="">Cargo</label>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Selecione um cargo</option>
+                                <option value="1">DEV front-End</option>
+                                <option value="2">DEV Back-End</option>
+                                <option value="3">Dados</option>
+                            </select>
+                        </div>
+                        <div class="col-4">
+                            <label for="">salário</label>
+                            <input type="number" name="" id="" class="form-control">
+                        </div>
+                        
+                        <div class="col-4">
+                            <label for="">Data de adimissão</label>
+                            <input type="date" name="" id="" class="form-control">
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Sair</button>
+                    <button type="button" class="btn btn-dark">Salvar</button>
+                </div>
+            </div>
+        </div>
+    </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
 </body>
